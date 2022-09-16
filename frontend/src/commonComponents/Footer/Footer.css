@@ -1,0 +1,22 @@
+.footer-container {
+    height: 160px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+
+.footer-app-logo {
+    border-right: 1px solid grey;
+    height: 120px;
+}
+
+
+
+@media (max-width:768px) {
+    .footer-container {
+        flex-direction: column;
+
+    }
+}
