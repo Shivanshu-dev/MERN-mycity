@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
 import ShopCard from '../components/ShopCard/ShopCard';
+import './Home.css';
 
-const Home = () => {
+function Home() {
   return (
-    <div className='container' style={{marginTop:'10px'}}><ShopCard /></div>
-  )
+    <div className="container shopcard">
+      <div className="shop-card-container">
+        <ShopCard />
+      </div>
+    </div>
+  );
 }
 
 export default Home;

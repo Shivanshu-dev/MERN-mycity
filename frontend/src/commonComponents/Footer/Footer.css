@@ -19,4 +19,10 @@
         flex-direction: column;
 
     }
+
+    .footer-app-logo {
+        border-right: none;
+        border-bottom: 1px solid grey;
+        width: 80%;
+    }
 }

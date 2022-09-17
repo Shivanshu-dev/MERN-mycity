@@ -1,0 +1,12 @@
+.productcard-container {
+    width:30%;
+}
+
+@media (max-width:768px) {
+    .productcard-container {
+        width: 100%;
+    }
+}
+
+
+    

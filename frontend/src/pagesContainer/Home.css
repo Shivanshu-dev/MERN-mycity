@@ -1,0 +1,26 @@
+.shop-card-container {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+}
+
+.shopcard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+@media (max-width:768px) {
+    .shop-card-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .shopcard {
+        flex-direction: column;
+        width: 100%;
+    }
+}

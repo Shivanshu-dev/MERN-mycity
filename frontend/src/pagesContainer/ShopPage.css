@@ -1,0 +1,9 @@
+.store-container {
+    width: 90%;
+}
+
+@media (max-width:768px) {
+    .store-container {
+        width: 100%;
+    }
+}

@@ -2,20 +2,20 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-const ShopCard = () => {
+function ShopCard() {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Shop Name</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Shop description what the shop sells
+          <Button variant="outline-danger">Shop Timing Variant toggle if open close</Button>
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Go to shop byonClick</Button>
       </Card.Body>
     </Card>
-  )
+  );
 }
 
 export default ShopCard;

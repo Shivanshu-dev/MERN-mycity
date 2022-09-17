@@ -1,0 +1,6 @@
+.cart-product-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: auto;
+}
